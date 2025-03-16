@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "card-backgroung-remover"
+version = "0.1.0"
+description = ""
+authors = ["Soumya2024 <habra4561@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+easyocr = "^1.7.2"
+pdf2image = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
